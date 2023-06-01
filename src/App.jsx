@@ -1,13 +1,14 @@
 
 import MainContainer from './components/container/MainContainer';
 import Header from './components/header/Header';
-import Main from './components/main/Main';
+import Body from './components/body/Body';
+
 function App() {
   return (
     <>
       <MainContainer >
         <Header/>
-        <Main/>
+        <Body/>
       </MainContainer>
     </>
   );
