@@ -1,10 +1,15 @@
-import { Box } from '@chakra-ui/react'
 
+import MainContainer from './components/container/MainContainer';
+import Header from './components/header/Header';
+import Main from './components/main/Main';
 function App() {
   return (
-    <Box bg='tomato' w='100%' p={4} color='white'>
-    This is the Box
-  </Box>
+    <>
+      <MainContainer >
+        <Header/>
+        <Main/>
+      </MainContainer>
+    </>
   );
 }
 
