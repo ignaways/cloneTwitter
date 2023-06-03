@@ -137,9 +137,9 @@ const LinkItems = [
 const Header = () => {
   return (
     <>
-      <Box bg="papayawhip" minH="100vh" w="100%" color="black">
+      <Flex bg="papayawhip" justifyContent="flex-end" minH="100vh" w="100%" color="black">
         <SidebarContent display={{ base: "none", md: "block" }} />
-      </Box>
+      </Flex>
     </>
   );
 };
@@ -151,7 +151,7 @@ const SidebarContent = (display) => {
       borderRight="1px"
       // borderRightColor={useColorModeValue("gray.200", "gray.700")}
       // w={{ base: "full", md: 60 }}
-      // pos="fixed"
+      pos="fixed"
       // h="full"
       h="100vh"
       {...display}
